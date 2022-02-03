@@ -41,7 +41,7 @@ Esse projeto será desenvolvido com as seguintes tecnologias:
 
 ## 🚧 Projeto
 
-Neste desafio você deverá construir uma landing page de uma página de viagem fictícia.
+Neste desafio você deverá construir uma landing page de viagens fictícia.
 
 ## 🎨 Inspiração:
 
