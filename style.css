@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+:root {
+  --color-text: #F1F1F1;
+  --color-subtitle: #dfd9d9;
+  --color-highlight: #e2792d;
+  --color-button: #4343e9;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: url(/assets/background.jpeg) no-repeat fixed center;
+  color: var(--color-text);
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.container {
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo img {
+  width: 50px;
+  height: 50px;
+  filter: drop-shadow(30px 10px 4px rgb(0, 0, 0, 0.5));
+}
+
+header ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+header ul li {
+  font-size: 16px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: var(--color-text);
+  transition: 0.5s;
+}
+
+header ul li a:hover {
+  color: var(--color-highlight);
+  border-bottom: 1px solid var(--color-button);
+}
+
+button {
+  border: none;
+  background-color: var(--color-button);
+  color: var(--color-text);
+  padding: 12px 30px;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: 0.5s;
+}
+
+button a {
+  color: var(--color-text);
+  font-weight: 500;
+}
+
+button:hover {
+  filter: drop-shadow(0px 2px 3px rgb(0, 0, 0, 0.5));
+}
+
+main {
+  padding-top: 200px;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.top-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.top-main h3 {
+  padding-top: 30px;
+  color: var(--color-subtitle);
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.title h3{
+  display: flex;
+  margin: 0 auto;
+  max-width: 65%;
+}
+
+.bottom-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.search {
+  background-color: var(--color-text);
+  opacity: 0.9;
+  border-radius: 15px;
+  width: 80%;
+  padding: 25px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+label {
+  color: #000;
+}
+
+#locations, #hotel, #range {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  padding-bottom: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+
+select {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+}
+
+.button-search {
+  padding-left: 20px;
+}
+
+#button-search {
+  padding: 35px;
+  opacity: 0.8;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button img {
+  width: 30px;
+  height: 30px;
+}
+
+@media screen and (max-width: 700px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header img {
+    display: none;
+  }
+
+  header .menu {
+    padding-bottom: 40px;
+  }
+
+  main {
+    padding-top: 100px;
+  }
+
+  .search {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+  }
+
+  label {
+    padding-top: 20px;
+  }
+
+  .bottom-main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .button-search {
+    padding-top: 20px;
+  }
+
+  #button-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 80px;
+  }
+
+  #button-search::after {
+    content: 'Pesquisar';
+  }
+
+  #button-search img {
+    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+  }
+}
