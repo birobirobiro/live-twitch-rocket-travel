@@ -16,6 +16,10 @@
   <img src="https://img.shields.io/github/stars/birobirobiro/pomo-sound?label=stars&message=MIT&color=4343e9&labelColor=e2792d " alt="Stars">
 </p>
 
+<p align="center">
+  <img alt="" src=".github/logo-plane.svg" width="10%">
+</p>
+
 <br>
 
 <h1>Desktop</h1>
