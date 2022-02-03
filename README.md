@@ -39,6 +39,10 @@ Esse projeto será desenvolvido com as seguintes tecnologias:
 
 Neste desafio você deverá construir uma landing page de uma página de viagem fictícia.
 
+## 🎨 Inspiração:
+
+[Dribbble](https://dribbble.com/shots/17407084-Travel-Web-Header-Landing-Page-design/attachments/12533821?mode=media)
+
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.md) para mais detalhes.
