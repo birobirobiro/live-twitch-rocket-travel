@@ -20,7 +20,7 @@
 
 <h1>Desktop</h1>
 <p align="center">
-  <img alt="" src=".github/preview-desktop.png" width="50%">
+  <img alt="" src=".github/preview-desktop.png" width="100%">
 </p>
 
 <h1>Mobile</h1>
