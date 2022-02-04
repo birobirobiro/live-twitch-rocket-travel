@@ -41,6 +41,8 @@ Esse projeto será desenvolvido com as seguintes tecnologias:
 
 ## 🚧 Projeto
 
+Live Preview: https://rocket-travel.vercel.app/
+
 Neste desafio você deverá construir uma landing page de viagens fictícia.
 
 ## 🎨 Inspiração:
